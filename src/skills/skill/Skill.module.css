@@ -1,0 +1,22 @@
+.skill{
+    padding: 2rem .5rem;
+    width: 300px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+.icon{
+ width: 60px;
+    height: 60px;
+    transform: rotate(45deg);
+    background-color: gray;
+}
+.heading{
+    font-size: 1.6rem;
+}
+.description{
+    font-size: 1.1rem;
+    text-align: center;
+}

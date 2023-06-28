@@ -1,0 +1,16 @@
+.nav{
+    border: 1px solid black;
+}
+.navList{
+    border: 1px solid black;
+    width: 500px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.listItem {
+    background-color: lightskyblue;
+    font-size: 1.2rem;
+}
