@@ -1,0 +1,28 @@
+.projectsBlock {
+    height: 80vh;
+    background-color: lightpink;
+}
+
+
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.title {
+    background-color: lightpink;
+}
+
+.projects {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+
+}
