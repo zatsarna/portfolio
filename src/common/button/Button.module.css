@@ -1,0 +1,15 @@
+.buttonMain {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: green;
+    font-size: 1.6rem;
+}
+.buttonMain:hover {
+    background-color: #ddd;
+    transform: translateY(1px);
+}
+.buttonMain:active{
+    transform: translateY(2px);
+}

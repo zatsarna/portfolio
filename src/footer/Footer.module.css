@@ -1,0 +1,35 @@
+.footerBlock {
+    background-color: lightsalmon;
+}
+
+.footerContainer {
+
+}
+
+.title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.socials {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1rem;
+}
+
+.socialsItem {
+
+}
+
+.copyrightText {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.icon{
+    color: black;
+}
