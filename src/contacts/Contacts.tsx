@@ -8,11 +8,11 @@ const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${st.container} ${s.contactsContainer}`}>
-                <h2 className={s.title}>Contacts</h2>
+                <h2 className={st.title}>Contacts</h2>
                 <form action="" method="get" className={s.form}>
                     <div className={s.formElement}>
                         <label htmlFor="name">Name: </label>
-                        <input type="text" name="name" id="name" required className={s.contactsInput}/>
+                        <input type="text" name="name" id="name" required className={s.contactsInput} />
                     </div>
                     <div className={s.formElement}>
                         <label htmlFor="phone">Phone: </label>
@@ -24,7 +24,7 @@ const Contacts = () => {
                     </div>
                     <div className={s.formElement}>
                         <label htmlFor="email">Enter your message: </label>
-                        <textarea  name="email" id="email" required className={s.contactsInput} rows={8}></textarea>
+                        <textarea  name="email" id="message" required className={s.contactsInput} rows={8}></textarea>
                     </div>
                     <div className={s.formElement}>
                         <Button name={'Submit'} callback={()=>{}}/>

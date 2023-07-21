@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Main.module.css'
 import st from './../common/styles/Container.module.css'
 import Button from '../common/button/Button';
-import photo from './liuda.png'
+import photo from './photo.png'
 export const Main = () => {
     return (
         <main className={s.main}>

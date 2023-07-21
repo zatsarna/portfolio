@@ -1,7 +1,7 @@
 .project {
     padding: 2rem 1rem;
-   width: 350px;
-    background-color: lightblue;
+    width: 350px;
+    background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -11,8 +11,8 @@
 .imgContainer {
     width: 350px;
     height: 250px;
-position: relative;
-
+    position: relative;
+    margin-bottom: 1rem;
 }
 
 .img {
@@ -21,19 +21,66 @@ position: relative;
     object-fit: cover;
     opacity: .5;
 }
-.button{
+
+.button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%, -50%);
 }
+
 .heading {
 
     font-size: 1.6rem;
-
+    margin-bottom: .5rem;
 }
 
 .description {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+}
 
+@media only screen and (max-width: 1030px) {
+    .project {
+        width: 320px;
+    }
+    .imgContainer {
+        width: 320px;
+        height: 230px;
+    }
+}
+@media only screen and (max-width: 756px) {
+    .project {
+        width: 600px;
+    }
+    .imgContainer {
+        width: 500px;
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 635px) {
+    .project {
+        width: 550px;
+    }
+    .imgContainer {
+        width: 410px;
+        height: 270px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .project {
+        width: 450px;
+    }
+    .imgContainer {
+        width: 320px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .project {
+        width: 430px;
+    }
+    .imgContainer {
+        width: 278px;
+        height: 200px;
+    }
 }

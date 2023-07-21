@@ -1,22 +1,60 @@
 .skill{
     padding: 2rem .5rem;
     width: 300px;
-    background-color: lightblue;
+    background-color: #e0e0e0;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-.icon{
- width: 60px;
-    height: 60px;
-    transform: rotate(45deg);
-    background-color: gray;
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.icon {
+    width: 55px;
+   height: 45px;
+    object-fit: contain;
 }
 .heading{
     font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
 .description{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 1265px) {
+    .skill {
+        width: 290px;
+    }
+}
+@media only screen and (max-width: 1227px) {
+    .skill {
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 1190px) {
+    .skill {
+        width: 270px;
+        padding: 1.5rem .5rem;
+    }
+    .icon {
+        width: 50px;
+        height: 40px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        margin-bottom: .9rem;
+    }
+}
+@media only screen and (max-width: 625px) {
+    .skill {
+       width: 100%;
+        padding: 3rem .5rem;
+    }
 }

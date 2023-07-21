@@ -8,7 +8,6 @@ const Project = (props: {project: ProjectType}) => {
         <div className={s.project}>
             <div className={s.imgContainer}>
                 <img src={props.project.pic} className={s.img} alt={'Project'}></img>
-                {/*<button className={s.button}>Explore</button>*/}
                 <Button name={'Explore'} callback={()=>{}} className={s.button}/>
             </div>
             <h3 className={s.heading}>{props.project.name}</h3>

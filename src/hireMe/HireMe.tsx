@@ -8,7 +8,7 @@ const HireMe = () => {
     return (
         <div className={s.hireMeBlock}>
             <div className={`${st.container} ${s.projectsContainer}`}>
-                <h2 className={s.title}>Looking for remote work</h2>
+                <h2 className={st.title}>Looking for remote work</h2>
                 <Button name={'Hire me'} callback={() => {
                 }}/>
             </div>

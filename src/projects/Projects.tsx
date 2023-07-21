@@ -32,7 +32,7 @@ const Projects = () => {
     return (
         <div className={s.projectsBlock}>
             <div className={`${st.container} ${s.projectsContainer}`}>
-                <h2 className={s.title}>My projects</h2>
+                <h2 className={st.title}>My projects</h2>
                 <div className={s.projects}>
                     <Project project={project1}/>
                     <Project project={project2}/>

@@ -1,24 +1,21 @@
 .footerBlock {
-    background-color: lightsalmon;
+    background-color: #c9c9c9;
+
 }
 
 .footerContainer {
 
 }
 
-.title {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
+
 
 .socials {
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1.5rem;
     align-items: center;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     padding: 1.5rem 1rem;
 }
 
@@ -32,4 +29,10 @@
 }
 .icon{
     color: black;
+    height: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .socials{
+        gap: 1rem;
+    }
 }
